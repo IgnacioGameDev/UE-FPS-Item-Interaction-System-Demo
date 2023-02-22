@@ -28,7 +28,7 @@ Once you have changed the macro and added the redirects, compile the project and
 
 The *InteractiveItemBase* class contains events that are triggered by the *PlayerCharacter* class at different points of player interaction. The player can pick up items, rotate them and put them back down, triggering the events which can be defined in blueprints to create different behaviours between items. Additionaly there is some UI that allows each item to have one or more "Item Actions" which can also be defined in blueprints and might involve interactions other than rotating it.
 
-In the video example below you can observe a cube which prints messages to the screen when these different events are triggered, then a bottle which has no functionality other than rotating. There are also two different variations of a letter, one that plays an open animation when a button is pressed and can be read whilst holding the letter upright and opposite facing to the player and another letter which opens manually by dragging the mouse and closes up when being put down unlike the first. All items are timestamped on the video description.
+In the video example below you can see a cube which prints messages to the screen when these different events are triggered, then a bottle which has no functionality other than rotating. There are also two different variations of a letter, one that plays an open animation when a button is pressed and can be read whilst holding the letter upright and opposite facing to the player and another letter which opens manually by dragging the mouse and closes up when being put down unlike the first. All items are timestamped on the video description.
 
 [UE5 FPS Item Interaction System Demo](http://www.youtube.com/watch?v=Vb69OTXMb1Y)
 
